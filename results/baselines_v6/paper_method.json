@@ -1,0 +1,63 @@
+{
+  "architecture_parameter_count": 1271687,
+  "architecture_reference": "Figure 4, PDF page 3, printed page 326",
+  "authors": [
+    "Shekhar Singh",
+    "Fatma Nasoz"
+  ],
+  "claim": "research-based adaptation; not a novel algorithm or exact score reproduction",
+  "doi": "10.1109/CCWC47524.2020.9031283",
+  "ft11_adaptations": [
+    "PyTorch instead of Keras/TensorFlow",
+    "logits with CrossEntropyLoss instead of explicit softmax",
+    "shared Adam 0.001, batch 64, epoch cap 20 and patience 3",
+    "fixed seed and PyTorch random initialization",
+    "FT11 audited split and validation macro-F1 checkpoint selection"
+  ],
+  "inferred_from_figure": [
+    "3x3 convolutions",
+    "stride 1",
+    "padding 0",
+    "convolution and dense biases"
+  ],
+  "label": "Paper-based CNN",
+  "paper_reported_training": {
+    "batch_size": 512,
+    "epochs": 10
+  },
+  "stated_design": {
+    "conv_channels": [
+      128,
+      128,
+      128,
+      128,
+      128,
+      128
+    ],
+    "conv_layers": 6,
+    "dense_hidden_units": 1024,
+    "dropout_rates": [
+      0.2,
+      0.2
+    ],
+    "output_classes": 7,
+    "pool_kernels": [
+      3,
+      3,
+      2
+    ],
+    "pool_strides": [
+      2,
+      2,
+      2
+    ]
+  },
+  "title": "Facial Expression Recognition with Convolutional Neural Networks",
+  "unspecified_in_paper": [
+    "optimizer",
+    "learning rate",
+    "random seed",
+    "weight initialization"
+  ],
+  "year": 2020
+}

@@ -1,0 +1,11 @@
+{
+  "basis": "mean validation macro-F1; lower mean validation loss tie break",
+  "best_model": "resnet18",
+  "chosen_variants": {
+    "cnn": "baseline",
+    "mlp": "baseline",
+    "paper_cnn": "paper_based",
+    "resnet18": "baseline"
+  },
+  "matrix_seed": 42
+}

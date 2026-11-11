@@ -1,0 +1,33 @@
+{
+  "data_fingerprint": "d67be25b0158b2017c0f4ad4eca68b8632bd9ec66bb579cf2de8224fe1eabf82",
+  "experiment_name": "small-cnn-focal-loss",
+  "experiments": [
+    {
+      "gamma": 0.0,
+      "loss": "cross_entropy"
+    },
+    {
+      "gamma": 1.0,
+      "loss": "focal_loss"
+    },
+    {
+      "gamma": 2.0,
+      "loss": "focal_loss"
+    },
+    {
+      "gamma": 4.0,
+      "loss": "focal_loss"
+    }
+  ],
+  "run_id": "20261109T235034Z_68aa20",
+  "source_test_evaluated": false,
+  "split_fingerprint": "e7f2dff98a0b4146836818077fa4d32a6188cdd4dc9ed8d78594c116b27831b3",
+  "split_seed": 42,
+  "study": "small_cnn_cross_entropy_vs_focal_loss",
+  "train_records": 23743,
+  "train_subset_fingerprint": "696a66b601ce84d66faa5cf9acd616806fb4ad4820f72e8b670a85e73d6ea804",
+  "training_seed": 42,
+  "validation_fraction": 0.15,
+  "validation_records": 4190,
+  "validation_subset_fingerprint": "a914136e3b9f472b654c3b85c7860296f567442c51da7b746ac318d55744e345"
+}

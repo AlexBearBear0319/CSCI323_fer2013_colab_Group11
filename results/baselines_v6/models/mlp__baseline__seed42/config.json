@@ -1,0 +1,21 @@
+{
+  "architecture_reference": "FT11 documented baseline",
+  "batch_size": 64,
+  "changed_setting": null,
+  "dropout": 0.0,
+  "flip_probability": 0.0,
+  "freeze_backbone": false,
+  "initialization": "random",
+  "input_profile": "gray48",
+  "learning_rate": 0.001,
+  "max_epochs": 20,
+  "method_role": "reference baseline",
+  "model_id": "mlp",
+  "momentum": 0.9,
+  "optimizer": "Adam",
+  "patience": 3,
+  "seed": 42,
+  "source_doi": null,
+  "variant": "baseline",
+  "weight_decay": 0.0
+}

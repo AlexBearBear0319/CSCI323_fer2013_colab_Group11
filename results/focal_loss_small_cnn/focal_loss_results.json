@@ -1,0 +1,345 @@
+{
+  "new_runs": [
+    {
+      "accuracy_percent": 48.80668257756563,
+      "best_epoch": 15,
+      "epochs_completed": 18,
+      "experiment": "Cross-Entropy (fresh rerun)",
+      "gamma": 0.0,
+      "loss": "cross_entropy",
+      "macro_f1": 0.3919611487460183,
+      "training_seconds": 777.2529257649999
+    },
+    {
+      "accuracy_percent": 46.87350835322196,
+      "best_epoch": 15,
+      "epochs_completed": 18,
+      "experiment": "Focal Loss (gamma=1)",
+      "gamma": 1.0,
+      "loss": "focal_loss",
+      "macro_f1": 0.3839500696368351,
+      "training_seconds": 770.4686589220005
+    },
+    {
+      "accuracy_percent": 46.085918854415276,
+      "best_epoch": 12,
+      "epochs_completed": 15,
+      "experiment": "Focal Loss (gamma=2)",
+      "gamma": 2.0,
+      "loss": "focal_loss",
+      "macro_f1": 0.37328431739839313,
+      "training_seconds": 638.7844506179999
+    },
+    {
+      "accuracy_percent": 44.582338902147974,
+      "best_epoch": 8,
+      "epochs_completed": 11,
+      "experiment": "Focal Loss (gamma=4)",
+      "gamma": 4.0,
+      "loss": "focal_loss",
+      "macro_f1": 0.3596794191485803,
+      "training_seconds": 473.50381640699925
+    }
+  ],
+  "original_cross_entropy_reference": {
+    "accuracy_percent": 48.81,
+    "best_epoch": 15,
+    "epochs_completed": 18,
+    "macro_f1": 0.392,
+    "per_class_f1": {
+      "angry": 0.375,
+      "disgust": 0.0,
+      "fear": 0.214,
+      "happy": 0.711,
+      "neutral": 0.478,
+      "sad": 0.37,
+      "surprise": 0.596
+    },
+    "source": "uploaded notebook's saved Small CNN Cross-Entropy result; historical reference, not rerun",
+    "training_seconds": 736.9
+  },
+  "per_class": [
+    {
+      "experiment": "Cross-Entropy (fresh rerun)",
+      "f1": 0.37510955302366344,
+      "gamma": 0.0,
+      "label": "angry",
+      "precision": 0.38146167557932265,
+      "predicted_count": 561,
+      "recall": 0.3689655172413793,
+      "support": 580
+    },
+    {
+      "experiment": "Cross-Entropy (fresh rerun)",
+      "f1": 0.0,
+      "gamma": 0.0,
+      "label": "disgust",
+      "precision": 0.0,
+      "predicted_count": 0,
+      "recall": 0.0,
+      "support": 58
+    },
+    {
+      "experiment": "Cross-Entropy (fresh rerun)",
+      "f1": 0.21390374331550802,
+      "gamma": 0.0,
+      "label": "fear",
+      "precision": 0.2949852507374631,
+      "predicted_count": 339,
+      "recall": 0.16778523489932887,
+      "support": 596
+    },
+    {
+      "experiment": "Cross-Entropy (fresh rerun)",
+      "f1": 0.71067789100576,
+      "gamma": 0.0,
+      "label": "happy",
+      "precision": 0.6773648648648649,
+      "predicted_count": 1184,
+      "recall": 0.7474370922646785,
+      "support": 1073
+    },
+    {
+      "experiment": "Cross-Entropy (fresh rerun)",
+      "f1": 0.37001375515818435,
+      "gamma": 0.0,
+      "label": "sad",
+      "precision": 0.36400541271989173,
+      "predicted_count": 739,
+      "recall": 0.37622377622377623,
+      "support": 715
+    },
+    {
+      "experiment": "Cross-Entropy (fresh rerun)",
+      "f1": 0.5963003264417845,
+      "gamma": 0.0,
+      "label": "surprise",
+      "precision": 0.5626283367556468,
+      "predicted_count": 487,
+      "recall": 0.6342592592592593,
+      "support": 432
+    },
+    {
+      "experiment": "Cross-Entropy (fresh rerun)",
+      "f1": 0.47772277227722776,
+      "gamma": 0.0,
+      "label": "neutral",
+      "precision": 0.43863636363636366,
+      "predicted_count": 880,
+      "recall": 0.5244565217391305,
+      "support": 736
+    },
+    {
+      "experiment": "Focal Loss (gamma=1)",
+      "f1": 0.3403403403403403,
+      "gamma": 1.0,
+      "label": "angry",
+      "precision": 0.40572792362768495,
+      "predicted_count": 419,
+      "recall": 0.29310344827586204,
+      "support": 580
+    },
+    {
+      "experiment": "Focal Loss (gamma=1)",
+      "f1": 0.0,
+      "gamma": 1.0,
+      "label": "disgust",
+      "precision": 0.0,
+      "predicted_count": 0,
+      "recall": 0.0,
+      "support": 58
+    },
+    {
+      "experiment": "Focal Loss (gamma=1)",
+      "f1": 0.24505928853754944,
+      "gamma": 1.0,
+      "label": "fear",
+      "precision": 0.2980769230769231,
+      "predicted_count": 416,
+      "recall": 0.2080536912751678,
+      "support": 596
+    },
+    {
+      "experiment": "Focal Loss (gamma=1)",
+      "f1": 0.6884491486424299,
+      "gamma": 1.0,
+      "label": "happy",
+      "precision": 0.68,
+      "predicted_count": 1100,
+      "recall": 0.6971109040074557,
+      "support": 1073
+    },
+    {
+      "experiment": "Focal Loss (gamma=1)",
+      "f1": 0.36189402480270577,
+      "gamma": 1.0,
+      "label": "sad",
+      "precision": 0.3031161473087819,
+      "predicted_count": 1059,
+      "recall": 0.4489510489510489,
+      "support": 715
+    },
+    {
+      "experiment": "Focal Loss (gamma=1)",
+      "f1": 0.588235294117647,
+      "gamma": 1.0,
+      "label": "surprise",
+      "precision": 0.5980861244019139,
+      "predicted_count": 418,
+      "recall": 0.5787037037037037,
+      "support": 432
+    },
+    {
+      "experiment": "Focal Loss (gamma=1)",
+      "f1": 0.463672391017173,
+      "gamma": 1.0,
+      "label": "neutral",
+      "precision": 0.45115681233933164,
+      "predicted_count": 778,
+      "recall": 0.47690217391304346,
+      "support": 736
+    },
+    {
+      "experiment": "Focal Loss (gamma=2)",
+      "f1": 0.34359805510534847,
+      "gamma": 2.0,
+      "label": "angry",
+      "precision": 0.3241590214067278,
+      "predicted_count": 654,
+      "recall": 0.36551724137931035,
+      "support": 580
+    },
+    {
+      "experiment": "Focal Loss (gamma=2)",
+      "f1": 0.0,
+      "gamma": 2.0,
+      "label": "disgust",
+      "precision": 0.0,
+      "predicted_count": 0,
+      "recall": 0.0,
+      "support": 58
+    },
+    {
+      "experiment": "Focal Loss (gamma=2)",
+      "f1": 0.25023518344308565,
+      "gamma": 2.0,
+      "label": "fear",
+      "precision": 0.284796573875803,
+      "predicted_count": 467,
+      "recall": 0.2231543624161074,
+      "support": 596
+    },
+    {
+      "experiment": "Focal Loss (gamma=2)",
+      "f1": 0.6883928571428573,
+      "gamma": 2.0,
+      "label": "happy",
+      "precision": 0.6606683804627249,
+      "predicted_count": 1167,
+      "recall": 0.7185461323392358,
+      "support": 1073
+    },
+    {
+      "experiment": "Focal Loss (gamma=2)",
+      "f1": 0.3305785123966942,
+      "gamma": 2.0,
+      "label": "sad",
+      "precision": 0.35714285714285715,
+      "predicted_count": 616,
+      "recall": 0.3076923076923077,
+      "support": 715
+    },
+    {
+      "experiment": "Focal Loss (gamma=2)",
+      "f1": 0.5404699738903395,
+      "gamma": 2.0,
+      "label": "surprise",
+      "precision": 0.6197604790419161,
+      "predicted_count": 334,
+      "recall": 0.4791666666666667,
+      "support": 432
+    },
+    {
+      "experiment": "Focal Loss (gamma=2)",
+      "f1": 0.4597156398104265,
+      "gamma": 2.0,
+      "label": "neutral",
+      "precision": 0.40756302521008403,
+      "predicted_count": 952,
+      "recall": 0.5271739130434783,
+      "support": 736
+    },
+    {
+      "experiment": "Focal Loss (gamma=4)",
+      "f1": 0.2701525054466231,
+      "gamma": 4.0,
+      "label": "angry",
+      "precision": 0.3668639053254438,
+      "predicted_count": 338,
+      "recall": 0.21379310344827587,
+      "support": 580
+    },
+    {
+      "experiment": "Focal Loss (gamma=4)",
+      "f1": 0.0,
+      "gamma": 4.0,
+      "label": "disgust",
+      "precision": 0.0,
+      "predicted_count": 0,
+      "recall": 0.0,
+      "support": 58
+    },
+    {
+      "experiment": "Focal Loss (gamma=4)",
+      "f1": 0.20267686424474185,
+      "gamma": 4.0,
+      "label": "fear",
+      "precision": 0.23555555555555555,
+      "predicted_count": 450,
+      "recall": 0.17785234899328858,
+      "support": 596
+    },
+    {
+      "experiment": "Focal Loss (gamma=4)",
+      "f1": 0.6753975678203928,
+      "gamma": 4.0,
+      "label": "happy",
+      "precision": 0.6779342723004694,
+      "predicted_count": 1065,
+      "recall": 0.6728797763280522,
+      "support": 1073
+    },
+    {
+      "experiment": "Focal Loss (gamma=4)",
+      "f1": 0.377023498694517,
+      "gamma": 4.0,
+      "label": "sad",
+      "precision": 0.30083333333333334,
+      "predicted_count": 1200,
+      "recall": 0.5048951048951049,
+      "support": 715
+    },
+    {
+      "experiment": "Focal Loss (gamma=4)",
+      "f1": 0.5465686274509804,
+      "gamma": 4.0,
+      "label": "surprise",
+      "precision": 0.5807291666666666,
+      "predicted_count": 384,
+      "recall": 0.5162037037037037,
+      "support": 432
+    },
+    {
+      "experiment": "Focal Loss (gamma=4)",
+      "f1": 0.44593687038280727,
+      "gamma": 4.0,
+      "label": "neutral",
+      "precision": 0.4409030544488712,
+      "predicted_count": 753,
+      "recall": 0.45108695652173914,
+      "support": 736
+    }
+  ],
+  "source_test_evaluated": false,
+  "split_fingerprint": "e7f2dff98a0b4146836818077fa4d32a6188cdd4dc9ed8d78594c116b27831b3"
+}

@@ -1,0 +1,6 @@
+{
+  "baseline_template_sha256": "7c117db1a21c7a412394124cde4e4b70132cd5bfccc82f6dff0a9599665f04b3",
+  "file": "FT11_Option1_Baselines.ipynb",
+  "revision": "four-methods-paper-cnn-v5",
+  "scope": "SHA-256 of delivered code cells with the digest literal replaced by 64 zeros; not a live hash of Colab edits"
+}

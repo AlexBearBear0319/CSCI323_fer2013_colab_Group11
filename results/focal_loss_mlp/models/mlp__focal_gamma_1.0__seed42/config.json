@@ -1,0 +1,19 @@
+{
+  "batch_size": 64,
+  "dropout": 0.0,
+  "flip_probability": 0.0,
+  "freeze_backbone": false,
+  "gamma": 1.0,
+  "initialization": "fresh_random_weights",
+  "input_profile": "gray48",
+  "learning_rate": 0.001,
+  "loss_name": "focal_loss",
+  "max_epochs": 20,
+  "model_id": "mlp",
+  "momentum": 0.9,
+  "optimizer": "Adam",
+  "patience": 3,
+  "seed": 42,
+  "variant": "focal_gamma_1.0",
+  "weight_decay": 0.0
+}

@@ -1,0 +1,27 @@
+{
+  "architecture_reference": "FT11 documented baseline",
+  "augmentation": {
+    "contrast": 0.2,
+    "rotation": 10
+  },
+  "batch_size": 64,
+  "changed_setting": null,
+  "dropout": 0.0,
+  "experiment_name": "flip_rot_contr",
+  "flip_probability": 0.5,
+  "freeze_backbone": false,
+  "initialization": "random",
+  "input_profile": "gray48",
+  "learning_rate": 0.001,
+  "max_epochs": 20,
+  "method_role": "reference baseline",
+  "model_id": "cnn",
+  "momentum": 0.9,
+  "optimizer": "Adam",
+  "patience": 3,
+  "run_key_override": "cnn__aug_flip_rot_contr__seed42",
+  "seed": 42,
+  "source_doi": null,
+  "variant": "baseline",
+  "weight_decay": 0.0
+}

@@ -1,0 +1,5 @@
+experiment,loss,gamma,accuracy_percent,macro_f1,training_seconds,best_epoch,epochs_completed,device
+Cross-Entropy (fresh rerun),cross_entropy,0.0,36.372315035799524,0.2699916207897601,591.9847111839999,8,11,cuda
+Focal Loss (gamma=1),focal_loss,1.0,36.92124105011933,0.27389629797274323,610.6361401089998,8,11,cuda
+Focal Loss (gamma=2),focal_loss,2.0,36.51551312649165,0.27527749181886557,506.6861770780001,6,9,cuda
+Focal Loss (gamma=4),focal_loss,4.0,36.63484486873509,0.2744398951625797,635.9584292690001,8,11,cuda

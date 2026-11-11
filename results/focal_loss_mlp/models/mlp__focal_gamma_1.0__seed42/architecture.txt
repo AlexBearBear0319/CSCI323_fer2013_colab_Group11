@@ -1,0 +1,8 @@
+MLP(
+  (layers): Sequential(
+    (0): Flatten(start_dim=1, end_dim=-1)
+    (1): Linear(in_features=2304, out_features=128, bias=True)
+    (2): ReLU()
+    (3): Linear(in_features=128, out_features=7, bias=True)
+  )
+)

@@ -1,0 +1,12 @@
+{
+  "data_fingerprint": "d67be25b0158b2017c0f4ad4eca68b8632bd9ec66bb579cf2de8224fe1eabf82",
+  "download_returned_path": "/kaggle/input/fer2013",
+  "download_time_utc": "2026-10-31T18:13:42.295715+00:00",
+  "manifest_sha256": "457b2e20af6522b9dcb775abb25b8c3f558db65f7ff0c207051d42ca975e8546",
+  "request": "latest (unversioned)",
+  "requested_handle": "msambare/fer2013",
+  "resolved_version": null,
+  "source_id_for_manifest": "msambare/fer2013/latest-unverified",
+  "split_assignment_fingerprint": "e7f2dff98a0b4146836818077fa4d32a6188cdd4dc9ed8d78594c116b27831b3",
+  "version_verified_from_returned_path": false
+}

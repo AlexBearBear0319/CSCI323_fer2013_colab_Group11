@@ -1,0 +1,76 @@
+{
+  "evaluation_split": "validation",
+  "highest_accuracy": {
+    "label": "ResNet18 baseline",
+    "mean_accuracy_percent": 54.41527446300716,
+    "mean_checkpoint_mib": 42.69855785369873,
+    "mean_images_per_second": 197.94386490726953,
+    "mean_latency_ms": 14.433461499720579,
+    "mean_macro_f1": 0.5036974349871904,
+    "mean_training_minutes": 77.6670680878,
+    "mean_validation_loss": 1.3109263738186092,
+    "model": "resnet18",
+    "parameters_millions": 11.173831,
+    "seeds": 1,
+    "variant": "baseline"
+  },
+  "highest_macro_f1": {
+    "label": "ResNet18 baseline",
+    "mean_accuracy_percent": 54.41527446300716,
+    "mean_checkpoint_mib": 42.69855785369873,
+    "mean_images_per_second": 197.94386490726953,
+    "mean_latency_ms": 14.433461499720579,
+    "mean_macro_f1": 0.5036974349871904,
+    "mean_training_minutes": 77.6670680878,
+    "mean_validation_loss": 1.3109263738186092,
+    "model": "resnet18",
+    "parameters_millions": 11.173831,
+    "seeds": 1,
+    "variant": "baseline"
+  },
+  "limits": [
+    "Paper-based CNN uses FT11 shared training choices; it is not an exact paper reproduction.",
+    "A smaller training-validation gap alone does not establish reduced overfitting.",
+    "Single-seed results do not estimate repeat-run variation."
+  ],
+  "lowest_latency": {
+    "label": "MLP baseline",
+    "mean_accuracy_percent": 36.372315035799524,
+    "mean_checkpoint_mib": 1.1323671340942383,
+    "mean_images_per_second": 80888.66307696175,
+    "mean_latency_ms": 0.0874984999654771,
+    "mean_macro_f1": 0.2699916207897601,
+    "mean_training_minutes": 4.845715860983334,
+    "mean_validation_loss": 1.635892672868788,
+    "model": "mlp",
+    "parameters_millions": 0.295943,
+    "seeds": 1,
+    "variant": "baseline"
+  },
+  "paper_method_comparisons": [
+    {
+      "accuracy_difference_pp": -3.1742243436754123,
+      "baseline": "ResNet18 baseline",
+      "baseline_macro_f1": 0.5036974349871904,
+      "macro_f1_difference": -0.04660228901119445,
+      "outcome": "lower",
+      "paper_macro_f1": 0.457095145975996
+    },
+    {
+      "accuracy_difference_pp": 2.4343675417661146,
+      "baseline": "Small CNN baseline",
+      "baseline_macro_f1": 0.3919611487460183,
+      "macro_f1_difference": 0.0651339972299777,
+      "outcome": "higher",
+      "paper_macro_f1": 0.457095145975996
+    },
+    {
+      "accuracy_difference_pp": 14.868735083532222,
+      "baseline": "MLP baseline",
+      "baseline_macro_f1": 0.2699916207897601,
+      "macro_f1_difference": 0.1871035251862359,
+      "outcome": "higher",
+      "paper_macro_f1": 0.457095145975996
+    }
+  ]
+}

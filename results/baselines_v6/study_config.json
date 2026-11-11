@@ -1,0 +1,43 @@
+{
+  "data_fingerprint": "d67be25b0158b2017c0f4ad4eca68b8632bd9ec66bb579cf2de8224fe1eabf82",
+  "diagnostic_subset_fingerprint": "3bc604288d905328a896a2910e083d45f01d81dda9b65228bfc87c94041d72d0",
+  "experiment_name": "three-baselines-and-paper-cnn",
+  "models": [
+    "mlp",
+    "cnn",
+    "resnet18",
+    "paper_cnn"
+  ],
+  "notebook_revision": "four-methods-paper-cnn-v5",
+  "paper_method_doi": "10.1109/CCWC47524.2020.9031283",
+  "run_id": "20261031T181704Z_bcbd93",
+  "run_mode": "full",
+  "source_test_evaluated": false,
+  "split_fingerprint": "e7f2dff98a0b4146836818077fa4d32a6188cdd4dc9ed8d78594c116b27831b3",
+  "split_seed": 42,
+  "study": "three_baselines_and_paper_cnn",
+  "template_source_sha256": "7c117db1a21c7a412394124cde4e4b70132cd5bfccc82f6dff0a9599665f04b3",
+  "train_records": 23743,
+  "train_subset_fingerprint": "696a66b601ce84d66faa5cf9acd616806fb4ad4820f72e8b670a85e73d6ea804",
+  "training_diagnostic_records": 512,
+  "training_seeds": [
+    42
+  ],
+  "validation_fraction": 0.15,
+  "validation_records": 4190,
+  "validation_subset_fingerprint": "a914136e3b9f472b654c3b85c7860296f567442c51da7b746ac318d55744e345",
+  "variants_by_model": {
+    "cnn": [
+      "baseline"
+    ],
+    "mlp": [
+      "baseline"
+    ],
+    "paper_cnn": [
+      "paper_based"
+    ],
+    "resnet18": [
+      "baseline"
+    ]
+  }
+}

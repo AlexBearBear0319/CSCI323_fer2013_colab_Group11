@@ -1,0 +1,5 @@
+model,variant,seeds,mean_macro_f1,sample_sd_macro_f1,mean_validation_accuracy_percent
+mlp,baseline,1,0.2699916207897601,,36.372315035799524
+cnn,baseline,1,0.3919611487460183,,48.80668257756563
+resnet18,baseline,1,0.5036974349871904,,54.41527446300716
+paper_cnn,paper_based,1,0.457095145975996,,51.241050119331746

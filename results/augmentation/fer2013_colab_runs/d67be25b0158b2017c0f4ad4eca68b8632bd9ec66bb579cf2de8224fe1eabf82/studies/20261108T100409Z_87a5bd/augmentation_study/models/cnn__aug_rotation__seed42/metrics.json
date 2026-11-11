@@ -1,0 +1,463 @@
+{
+  "best_epoch": 12,
+  "checkpoint_relative_path": "models/cnn__aug_rotation__seed42/best_checkpoint.pt",
+  "config": {
+    "architecture_reference": "FT11 documented baseline",
+    "augmentation": {
+      "rotation": 10
+    },
+    "batch_size": 64,
+    "changed_setting": null,
+    "dropout": 0.0,
+    "experiment_name": "rotation",
+    "flip_probability": 0.0,
+    "freeze_backbone": false,
+    "initialization": "random",
+    "input_profile": "gray48",
+    "learning_rate": 0.001,
+    "max_epochs": 20,
+    "method_role": "reference baseline",
+    "model_id": "cnn",
+    "momentum": 0.9,
+    "optimizer": "Adam",
+    "patience": 3,
+    "run_key_override": "cnn__aug_rotation__seed42",
+    "seed": 42,
+    "source_doi": null,
+    "variant": "baseline",
+    "weight_decay": 0.0
+  },
+  "diagnostic": {
+    "accuracy": 0.51171875,
+    "confusion_matrix": [
+      [
+        40,
+        0,
+        9,
+        6,
+        6,
+        2,
+        8
+      ],
+      [
+        4,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        26,
+        0,
+        15,
+        5,
+        14,
+        5,
+        8
+      ],
+      [
+        10,
+        0,
+        7,
+        94,
+        9,
+        4,
+        7
+      ],
+      [
+        16,
+        0,
+        11,
+        11,
+        39,
+        1,
+        9
+      ],
+      [
+        3,
+        0,
+        11,
+        2,
+        5,
+        26,
+        6
+      ],
+      [
+        12,
+        0,
+        1,
+        14,
+        11,
+        4,
+        48
+      ]
+    ],
+    "loss": 1.3379471749067307,
+    "macro_f1": 0.41902901551441507,
+    "per_class": [
+      {
+        "f1": 0.43956043956043955,
+        "label": "angry",
+        "precision": 0.36036036036036034,
+        "predicted_count": 111,
+        "recall": 0.5633802816901409,
+        "support": 71
+      },
+      {
+        "f1": 0.0,
+        "label": "disgust",
+        "precision": 0.0,
+        "predicted_count": 0,
+        "recall": 0.0,
+        "support": 7
+      },
+      {
+        "f1": 0.23255813953488372,
+        "label": "fear",
+        "precision": 0.26785714285714285,
+        "predicted_count": 56,
+        "recall": 0.2054794520547945,
+        "support": 73
+      },
+      {
+        "f1": 0.712121212121212,
+        "label": "happy",
+        "precision": 0.706766917293233,
+        "predicted_count": 133,
+        "recall": 0.7175572519083969,
+        "support": 131
+      },
+      {
+        "f1": 0.456140350877193,
+        "label": "sad",
+        "precision": 0.4642857142857143,
+        "predicted_count": 84,
+        "recall": 0.4482758620689655,
+        "support": 87
+      },
+      {
+        "f1": 0.5473684210526316,
+        "label": "surprise",
+        "precision": 0.6190476190476191,
+        "predicted_count": 42,
+        "recall": 0.49056603773584906,
+        "support": 53
+      },
+      {
+        "f1": 0.5454545454545454,
+        "label": "neutral",
+        "precision": 0.5581395348837209,
+        "predicted_count": 86,
+        "recall": 0.5333333333333333,
+        "support": 90
+      }
+    ]
+  },
+  "epochs_completed": 15,
+  "gap_percentage_points": 3.558509844868735,
+  "history": [
+    {
+      "epoch": 1,
+      "epoch_seconds": 24.570455410999784,
+      "optimization_loss": 1.802471810703063,
+      "train_accuracy": 0.255859375,
+      "train_loss": 1.789507269859314,
+      "validation_accuracy": 0.2560859188544153,
+      "validation_loss": 1.7923262600682517,
+      "validation_macro_f1": 0.058250318938139575
+    },
+    {
+      "epoch": 2,
+      "epoch_seconds": 24.6126975520001,
+      "optimization_loss": 1.7456879602428315,
+      "train_accuracy": 0.287109375,
+      "train_loss": 1.734941527247429,
+      "validation_accuracy": 0.3181384248210024,
+      "validation_loss": 1.6925964873844228,
+      "validation_macro_f1": 0.21173232906378933
+    },
+    {
+      "epoch": 3,
+      "epoch_seconds": 24.971417355000085,
+      "optimization_loss": 1.634033290622801,
+      "train_accuracy": 0.365234375,
+      "train_loss": 1.6074573248624802,
+      "validation_accuracy": 0.39355608591885444,
+      "validation_loss": 1.5759499027507118,
+      "validation_macro_f1": 0.27433390290498677
+    },
+    {
+      "epoch": 4,
+      "epoch_seconds": 24.753635588999714,
+      "optimization_loss": 1.5621612405574137,
+      "train_accuracy": 0.392578125,
+      "train_loss": 1.534839153289795,
+      "validation_accuracy": 0.4143198090692124,
+      "validation_loss": 1.5214458952086638,
+      "validation_macro_f1": 0.2904561460815495
+    },
+    {
+      "epoch": 5,
+      "epoch_seconds": 24.5664943339998,
+      "optimization_loss": 1.52331939147968,
+      "train_accuracy": 0.419921875,
+      "train_loss": 1.5153863430023193,
+      "validation_accuracy": 0.4205250596658711,
+      "validation_loss": 1.509120689713016,
+      "validation_macro_f1": 0.31848007077525164
+    },
+    {
+      "epoch": 6,
+      "epoch_seconds": 24.42587642699982,
+      "optimization_loss": 1.492589418791592,
+      "train_accuracy": 0.453125,
+      "train_loss": 1.477130487561226,
+      "validation_accuracy": 0.4372315035799523,
+      "validation_loss": 1.4745660643019938,
+      "validation_macro_f1": 0.33775088938387204
+    },
+    {
+      "epoch": 7,
+      "epoch_seconds": 24.097328263000236,
+      "optimization_loss": 1.4673570204829476,
+      "train_accuracy": 0.455078125,
+      "train_loss": 1.4328023791313171,
+      "validation_accuracy": 0.44558472553699285,
+      "validation_loss": 1.4385707481948744,
+      "validation_macro_f1": 0.34514763286900924
+    },
+    {
+      "epoch": 8,
+      "epoch_seconds": 24.043788895000034,
+      "optimization_loss": 1.4388876988412516,
+      "train_accuracy": 0.474609375,
+      "train_loss": 1.396860033273697,
+      "validation_accuracy": 0.4556085918854415,
+      "validation_loss": 1.4180134334541448,
+      "validation_macro_f1": 0.35612249870567625
+    },
+    {
+      "epoch": 9,
+      "epoch_seconds": 24.206500512000275,
+      "optimization_loss": 1.4196855904042498,
+      "train_accuracy": 0.501953125,
+      "train_loss": 1.3706790953874588,
+      "validation_accuracy": 0.46420047732696895,
+      "validation_loss": 1.4059489169951556,
+      "validation_macro_f1": 0.3609955673973552
+    },
+    {
+      "epoch": 10,
+      "epoch_seconds": 23.9878600739994,
+      "optimization_loss": 1.3992796544051034,
+      "train_accuracy": 0.501953125,
+      "train_loss": 1.349321335554123,
+      "validation_accuracy": 0.47231503579952266,
+      "validation_loss": 1.3839986971283869,
+      "validation_macro_f1": 0.37680210905274697
+    },
+    {
+      "epoch": 11,
+      "epoch_seconds": 24.379405823000525,
+      "optimization_loss": 1.3796919376311998,
+      "train_accuracy": 0.484375,
+      "train_loss": 1.338390164077282,
+      "validation_accuracy": 0.4720763723150358,
+      "validation_loss": 1.3859106581649234,
+      "validation_macro_f1": 0.37174167611104064
+    },
+    {
+      "epoch": 12,
+      "epoch_seconds": 24.106553505000193,
+      "optimization_loss": 1.3618361216630137,
+      "train_accuracy": 0.51171875,
+      "train_loss": 1.3379471749067307,
+      "validation_accuracy": 0.47613365155131265,
+      "validation_loss": 1.3797146541691054,
+      "validation_macro_f1": 0.38665069027798193
+    },
+    {
+      "epoch": 13,
+      "epoch_seconds": 24.12412049700015,
+      "optimization_loss": 1.3459979112069056,
+      "train_accuracy": 0.498046875,
+      "train_loss": 1.3060354739427567,
+      "validation_accuracy": 0.47804295942720765,
+      "validation_loss": 1.3584230125377172,
+      "validation_macro_f1": 0.3818543019341455
+    },
+    {
+      "epoch": 14,
+      "epoch_seconds": 24.086972818000504,
+      "optimization_loss": 1.3338645587788673,
+      "train_accuracy": 0.525390625,
+      "train_loss": 1.285327672958374,
+      "validation_accuracy": 0.47517899761336513,
+      "validation_loss": 1.3683990877966323,
+      "validation_macro_f1": 0.37179028568365347
+    },
+    {
+      "epoch": 15,
+      "epoch_seconds": 24.238855241000238,
+      "optimization_loss": 1.3209995138752115,
+      "train_accuracy": 0.517578125,
+      "train_loss": 1.2715542167425156,
+      "validation_accuracy": 0.4821002386634845,
+      "validation_loss": 1.356229840770257,
+      "validation_macro_f1": 0.3816173298217516
+    }
+  ],
+  "mean_epoch_seconds": 24.344797486400058,
+  "parameters": 24115,
+  "run_key": "cnn__aug_rotation__seed42",
+  "source_test_evaluated": false,
+  "speed": {
+    "batch_size": 64,
+    "device": "cuda",
+    "input_shape": [
+      1,
+      48,
+      48
+    ],
+    "latency_ms_batch1": 0.5013930003769929,
+    "latency_p95_ms_batch1": 0.762283200310776,
+    "repeats": 30,
+    "scope": "model forward only; tensors already on device; synchronized wall time",
+    "throughput_images_per_second": 80518.08355456521,
+    "torch_threads": 1,
+    "warmup": 5
+  },
+  "stop_reason": "patience reached",
+  "trainable_parameters": 24115,
+  "training_seconds": 365.185326457,
+  "validation": {
+    "accuracy": 0.47613365155131265,
+    "confusion_matrix": [
+      [
+        253,
+        0,
+        54,
+        80,
+        96,
+        20,
+        77
+      ],
+      [
+        22,
+        0,
+        6,
+        10,
+        12,
+        2,
+        6
+      ],
+      [
+        139,
+        0,
+        120,
+        74,
+        115,
+        63,
+        85
+      ],
+      [
+        93,
+        0,
+        49,
+        796,
+        68,
+        12,
+        55
+      ],
+      [
+        147,
+        0,
+        75,
+        83,
+        255,
+        11,
+        144
+      ],
+      [
+        27,
+        0,
+        92,
+        31,
+        18,
+        214,
+        50
+      ],
+      [
+        97,
+        0,
+        28,
+        114,
+        129,
+        11,
+        357
+      ]
+    ],
+    "loss": 1.3797146541691054,
+    "macro_f1": 0.38665069027798193,
+    "per_class": [
+      {
+        "f1": 0.3726067746686303,
+        "label": "angry",
+        "precision": 0.32519280205655526,
+        "predicted_count": 778,
+        "recall": 0.4362068965517241,
+        "support": 580
+      },
+      {
+        "f1": 0.0,
+        "label": "disgust",
+        "precision": 0.0,
+        "predicted_count": 0,
+        "recall": 0.0,
+        "support": 58
+      },
+      {
+        "f1": 0.23529411764705882,
+        "label": "fear",
+        "precision": 0.2830188679245283,
+        "predicted_count": 424,
+        "recall": 0.20134228187919462,
+        "support": 596
+      },
+      {
+        "f1": 0.7041132242370632,
+        "label": "happy",
+        "precision": 0.67003367003367,
+        "predicted_count": 1188,
+        "recall": 0.7418452935694315,
+        "support": 1073
+      },
+      {
+        "f1": 0.3622159090909091,
+        "label": "sad",
+        "precision": 0.36796536796536794,
+        "predicted_count": 693,
+        "recall": 0.35664335664335667,
+        "support": 715
+      },
+      {
+        "f1": 0.5594771241830065,
+        "label": "surprise",
+        "precision": 0.6426426426426426,
+        "predicted_count": 333,
+        "recall": 0.49537037037037035,
+        "support": 432
+      },
+      {
+        "f1": 0.4728476821192053,
+        "label": "neutral",
+        "precision": 0.46124031007751937,
+        "predicted_count": 774,
+        "recall": 0.485054347826087,
+        "support": 736
+      }
+    ]
+  }
+}

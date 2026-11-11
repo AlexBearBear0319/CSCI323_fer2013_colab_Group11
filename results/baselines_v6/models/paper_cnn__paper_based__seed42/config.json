@@ -1,0 +1,21 @@
+{
+  "architecture_reference": "Singh and Nasoz Figure 4",
+  "batch_size": 64,
+  "changed_setting": null,
+  "dropout": 0.2,
+  "flip_probability": 0.0,
+  "freeze_backbone": false,
+  "initialization": "random",
+  "input_profile": "gray48",
+  "learning_rate": 0.001,
+  "max_epochs": 20,
+  "method_role": "research-based adaptation",
+  "model_id": "paper_cnn",
+  "momentum": 0.9,
+  "optimizer": "Adam",
+  "patience": 3,
+  "seed": 42,
+  "source_doi": "10.1109/CCWC47524.2020.9031283",
+  "variant": "paper_based",
+  "weight_decay": 0.0
+}
